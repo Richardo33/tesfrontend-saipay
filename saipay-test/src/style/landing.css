@@ -1,0 +1,42 @@
+.landing {
+    background-color: #D7D7F9;
+    height: 100%;
+}
+
+.landing .navigate{
+    background-color: #D7D7F9 !important;
+}
+
+.landing .preview{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 8em;
+}
+
+.landing .preview .captions{
+    /* background-color: blue; */
+    width: 23em;
+    text-align: left;
+    padding: 10% 0%;
+}
+
+.landing .options .optionCard{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0%;
+}
+
+.landing .options .optionCard img{
+    display: flex;
+    border-radius: 50%;
+    width: 3em;
+    margin: 1em 2em;
+}
+
+.landing .category .genre{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0%;
+    padding-bottom: 5em;
+}
